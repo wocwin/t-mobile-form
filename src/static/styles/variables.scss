@@ -1,0 +1,16 @@
+$main-txt-color:#323232; // 正文
+$tint-txt-color:#969799; // 浅色
+$main-txt:#355DB4;   // 主题字体色
+$main-bg:#355DB4;   // 主题背景色
+$main-white:#fff;
+$main-placeholder:#969799; // 输入框placeholder字体颜色
+$plate_color_yellow: #F3AB3B; // 黄色车牌
+$plate_color_blue: #355DB4; // 蓝色车牌
+$plate_color_green: #5AD8A6; // 绿色车牌
+
+:export {
+  mainTxtColor: $main-txt-color;
+  mainBg: $main-bg;
+  mainWhite: $main-white;
+  mainTxt: $main-txt;
+}

@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/demo/main",
+    "pages/auth/main",
+    "pages/tabbarPage/main",
+    "pages/register/main",
+    "pages/register/driverRegister/main",
+    "pages/register/supplierLogin/main",
+    "pages/register/supplierRegister/main",
+    "pages/register/reviewProgress/main"
+  ],
+  "subpackages": [
+    {
+      "root": "pages/subpackages/",
+      "pages": [
+        "supplier/main",
+        "supplierReport/main"
+      ]
+    }
+  ],
+  "usingComponents": {
+    "van-button": "static/dist/button/index",
+    "van-icon": "static/dist/icon/index",
+    "van-tab": "static/dist/tab/index",
+    "van-tabs": "static/dist/tabs/index",
+    "van-loading": "static/dist/loading/index",
+    "van-transition": "static/dist/transition/index",
+    "van-cell": "static/dist/cell/index",
+    "van-cell-group": "static/dist/cell-group/index",
+    "van-checkbox-group": "static/dist/checkbox-group/index",
+    "van-checkbox": "static/dist/checkbox/index",
+    "van-radio": "static/dist/radio/index",
+    "van-radio-group": "static/dist/radio-group/index",
+    "van-dialog": "static/dist/dialog/index",
+    "van-field": "static/dist/field/index",
+    "van-uploader": "static/dist/uploader/index",
+    "van-popup": "static/dist/popup/index",
+    "van-search": "static/dist/search/index",
+    "van-action-sheet": "static/dist/action-sheet/index",
+    "van-tabbar": "static/dist/tabbar/index",
+    "van-tabbar-item": "static/dist/tabbar-item/index",
+    "van-dropdown-menu": "static/dist/dropdown-menu/index",
+    "van-dropdown-item": "static/dist/dropdown-item/index",
+    "van-grid": "static/dist/grid/index",
+    "van-grid-item": "static/dist/grid-item/index",
+    "van-tag": "static/dist/tag/index",
+    "van-datetime-picker": "static/dist/datetime-picker/index",
+    "van-nav-bar": "static/dist/nav-bar/index",
+    "van-picker": "static/dist/picker/index"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF4D4F",
+    "navigationBarTitleText": "废钢供应链",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  }
+}

@@ -1,0 +1,39 @@
+// 覆盖vant-weapp样式
+
+// 输入框
+.van-cell{
+  .van-cell__title{
+    color: #666;
+    font-size: 14px;
+  }
+  .van-field__body--text{
+    .van-field__input{
+      // text-align: right;
+    }
+  }
+}
+// 折叠面板
+.van-collapse{
+  .van-collapse-item{
+    .van-collapse-item__title{
+      .van-cell{
+        .van-cell__title{
+          color: #333;
+        }
+      }
+      .item-index--van-cell{
+        justify-content: space-between;
+      }
+    }
+  }
+}
+// tab切换
+.van-tabs__wrap{
+  .van-tabs__line{
+    background-color: #355DB4;
+  }
+  .van-tab--active{
+    color: #355DB4;
+  }
+  
+}

@@ -1,0 +1,46 @@
+.DS_Store
+node_modules
+/dist
+
+
+# # local env files
+.env.local
+.env.*.local
+.env.*
+
+# # Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# # 忽略目录
+src/
+docs/
+build/
+config/
+dist/
+node_modules/
+/node_modules
+# 忽略指定文件
+webpack.dist.js
+babel.config.js
+.postcssrc.js
+.babelrc
+.eslintignore
+.browserslistrc
+.editorconfig
+.eslintrc.js
+.env.development
+deploy.sh
+*.map
+# Editor directories and files
+.idea
+.vscode
+.gitee
+.git
+*.json
+*.suo
+*.zip
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
